@@ -6,7 +6,7 @@ const port = 3000;
 
 // midelware
 app.use(express.json());
-const urlDB="mongodb+srv://achtchy22015:achtchy1234@cluster0.xmprnpg.mongodb.net/?retryWrites=true&w=majority";
+const urlDB="mongodb://mongo:21ade--eCEeehb21244Eh21A5G-G5Cg6@viaduct.proxy.rlwy.net:14734/test";
 const client=new MongoClient(urlDB);
 
 // Creation et lancement de serveur
